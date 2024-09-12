@@ -35,7 +35,7 @@ const HomeScreen = ({ navigation }) => {
           OnCare360 provides comprehensive health care solutions using advanced
           AI technology to enhance patient care and doctor patient relationship.
         </Text>
-        <Text style={styles.subtitle}>Learn more about Soul Machines</Text>
+        <Text style={styles.subtitle}>Learn more about Oncare360</Text>
         <View style={styles.optionsContainer}>
           <TouchableOpacity style={styles.option}>
             <Text style={styles.optionText}>Health Monitoring</Text>
