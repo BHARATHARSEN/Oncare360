@@ -34,7 +34,7 @@ const HomeScreen = ({ navigation }) => {
     setWebViewLoaded(true);
   };
 
-  // Adjust viewport settings to reduce zoom
+  
   const injectedJavaScript = `
     (function() {
       const meta = document.createElement('meta');
@@ -210,8 +210,8 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   webViewWrapper: {
-    width: width * 0.9, // Resize WebView width to be 90% of screen
-    height: height * 0.8, // Resize WebView height to be 70% of screen
+    width: width * 0.9, // Resizing WebView width to be 90% of screen
+    height: height * 0.8, // Resizing WebView height to be 70% of screen
     backgroundColor: "#fff",
     borderRadius: 10,
     overflow: "hidden",
